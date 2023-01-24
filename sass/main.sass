@@ -57,11 +57,12 @@ img
 
 section
 	padding: 100px 0
+	background-color: $separator_primary
 	&#top_banner
 		padding: 0
 
 #header
-	max-height: 70px
+	background-color: $bg_primary
 	.inner_header
 		display: flex
 		align-items: center
@@ -121,7 +122,6 @@ section
 							top: 10px
 							right: 20px
 
-
 @keyframes opac
 	from
 		opacity: 0
@@ -172,27 +172,89 @@ h1,h2,h3,h4
 
 //btns
 
+//slider
 
-.main_banner
+.itc-slider
+	position: relative
+
+.itc-slider__wrapper
+	overflow: hidden
+
+.itc-slider__items
+	display: flex
+	transition: transform 0.5s ease
+	will-change: transform
+
+.itc-slider__transition-none
+	transition: none
+
+.itc-slider__item
+	flex: 0 0 100%
+	max-width: 100%
+	user-select: none
+
+/* кнопки влево и вправо */
+.itc-slider__btn
+	position: absolute
+	top: 85%
+	display: flex
+	justify-content: center
+	align-items: center
+	background: rgba(0, 0, 0, 0)
+	border: none
+	cursor: pointer
+.itc-slider__btn_hide
+	display: none
+.itc-slider__btn_prev
+	left: 5%
+.itc-slider__btn_next
+	left: 15%
+
+.itc-slider__btn:hover,
+.itc-slider__btn:focus
+	color: #fff
+	text-decoration: none
+	outline: 0
+
+.itc-slider__btn::before
+	border-radius: 50%
+	padding: 25px
+	content: ''
+	background-repeat: no-repeat
+	background-position: center
+	border: none
+	cursor: pointer
+	background-color: #FEC110
+
+.itc-slider__btn_prev::before
+	background-image: url('../img/slider/arrow-left.svg')
+
+.itc-slider__btn_next::before
+	background-image: url('../img/slider/arrow-right.png')
+
+//slider
+
+#main_banner
 	background-color: $bg_quaternary
+	padding: 0
 	.mb_info
 		>.notif p
 			color: $label_tertiary
-			font-size: 60px
+			font-size: 50px
 			font-weight: 400
 
 		>h1
 			color: $accent
-			font-size: 67px
+			font-size: 57px
 			font-weight: 400
 			margin-top: 10px
 		>.descr
 			color: #8989a2
-			margin: 14px 0 44px
+			margin: 10px 0 10px
 			font-size: 18px
 			>.work
 				color: $label_secondary
-				font-size: 16px	
+				font-size: 16px
 				font-weight: 400
 			>.time
 				color: $label_tertiary
@@ -203,22 +265,15 @@ h1,h2,h3,h4
 			display: flex
 			align-items: center
 			.btn_simple
-				margin-bottom: 10px
-
-
-section
-	padding: 100px 0
-	&#top_banner
-		padding: 0
-
+				margin-bottom: 7px
 
 #advantages
 	.line
 		height: 1px
 		width: 100%
-		background-color: $separator_primary
+		background-color: $label_secondary
 		margin: 56px 0 10px 0
-	.notif	
+	.notif
 		margin: 0 auto
 		>p
 			font-size: 12px
@@ -240,6 +295,7 @@ section
 		font-size: 18px
 	.row_adv
 		.item_adv
+			background-color: $separator_primary
 			>img
 				width: 40px
 				height: 40px
@@ -258,8 +314,6 @@ section
 .img-responsive
 	margin: 0 auto
 
-
-
 #services
 	.notif
 		>p
@@ -267,10 +321,28 @@ section
 			font-weight: 400
 			margin: 20px 0
 	.item_adv
+		padding-bottom: 20px
+		padding-right: 20px
 		>img
-			max-width: 95%
+			max-width: 100%
+		.items
+			background-color: #fff
+		.item_btn
+			background-color: #fff
+		&:hover
+			.items
+				background-color: $accent
+				.descr
+					color: $bg_primary
+			.item_btn
+				background-color: $accent
+				.btn_simple
+					background-color: $label_primary
+					background-image: url('../img/services/white_arrow.svg')
+					background-repeat: no-repeat
+					background-position: center
+
 	.heading
-		color: $accent
 		font-size: 20px
 		font-weight: 400
 		margin-top: 40px
@@ -284,19 +356,19 @@ section
 		align-items: center
 		.btn_simple
 			border-radius: 50%
-			padding: 20px 
+			padding: 20px
 			margin-right: 40px
 			content: ''
 			background-image: url('../img/services/right_arrow.svg')
 			background-repeat: no-repeat
 			background-position: center
 
-
 #certificate
+	padding-top: 50px
 	.heading
 		font-size: 25px
 		font-weight: 400
-		color: $label_primary	
+		color: $label_primary
 		line-height: 1.2
 	.descr
 		font-size: 16px
@@ -310,48 +382,316 @@ section
 		>p
 			font-size: 21px
 			font-weight: 400
-	
-	
+
 #logotype
-	background-color: $bg_primary
+	background-color: $separator_primary
 	.notif
 		color: $label_secondary
 		font-size: 12px
 		font-weight: 700
-		
+
 	.logo
-		.circle
-			position: absolute
-			z-index: -1
-			border: 1px solid $separator_primary
+		display: flex
+		margin-top: 50px
+		.circles
+			border: 1px solid $bg_primary
+			box-sizing: border-box
 			border-radius: 50%
-			height: 10em
-			width: 10em
+			position: relative
+			margin-right: -10px
 			display: flex
-			align-items: center
 			justify-content: center
-			margin: 50px 0
-		.one
-			right: 80%
-			z-index: 9
-		.two
-			right: 70% 
-			z-index: 8
-		.three
-			right: 60% 
-			z-index: 7
-		.four
-			right: 50%
-			z-index: 6
-		.five
-			right: 40% 
-			z-index: 5
-		.six
-			right: 30%
-			z-index: 4
-		.seven
-			right: 20% 
-			z-index: 3
-		.eight
-			right: 10% 
-			z-index: 2
+			.circle
+				height: 12em
+				width: 12em
+				display: flex
+				align-items: center
+				justify-content: center
+				filter: grayscale(100%)
+
+#sales
+	.notif
+		>p
+			font-size: 64px
+			font-weight: 400
+			margin: 20px 0
+	.header
+		max-width: 420px
+		font-size: 45px
+		font-weight: 400
+		line-height: 1.2
+	.descr
+		font-size: 16px
+		font-weight: 400
+		padding: 15px 0
+	.link
+		display: flex
+		justify-content: flex-start
+		align-items: center
+		.btn_simple
+			border-radius: 50%
+			padding: 20px
+			content: ''
+			background-image: url('../img/services/right_arrow.svg')
+			background-repeat: no-repeat
+			background-position: center
+		.prev
+			margin-left: 10px
+	.slider
+		.itc-slider__btn_prev
+			left: 69%
+		.itc-slider__btn_next
+			left: 74%
+		.itc-slider
+			.itc-slider__btn::before
+				background-color: transparent
+				border: 1px solid
+			.itc-slider__btn:hover
+				background-color: $label_primary
+				border-radius: 50%
+#reviews
+	background-color: $bg_quaternary
+	.header
+		color: #fff
+		font-size: 45px
+	.rate
+		color: $accent
+		font-size: 45px
+		display: flex
+		justify-content: center
+	.averange
+		color: $label_secondary
+		margin-top: 15px
+	.line
+		height: 1px
+		width: 100%
+		background-color: $label_secondary
+		margin: 56px 0 10px 0
+	.clients
+		display: flex
+		.client__img
+			border: 1px solid $bg_primary
+			box-sizing: border-box
+			border-radius: 50%
+			position: relative
+			display: flex
+			justify-content: center
+			width: 65px
+			height: 65px
+			margin-left: 40%
+			background-color: #fff
+			>img
+				max-width: 50%
+		.client
+			display: flex
+			justify-content: flex-start
+			flex-direction: column
+			margin-left: 10px
+			line-height: 1.3
+			.header
+				font-size: 20px
+				font-weight: 400
+				color: #fff
+			.descr
+				font-size: 14px
+				color: #fff
+				font-weight: 400
+	.review
+		margin-left: 40%
+		color: #fff
+		margin-top: 10px
+	.slider
+		.itc-slider__btn
+			top: 2%
+		.itc-slider__btn_prev
+			left: 87%
+		.itc-slider__btn_next
+			left: 92%
+		.itc-slider
+			.itc-slider__btn::before
+				background-color: transparent
+				border: 1px solid
+			.itc-slider__btn:hover
+				background-color: #fff
+				border-radius: 50%
+
+// rating
+
+.stars
+	overflow: hidden
+	margin: 0 auto
+
+.stars:not(:checked) > input
+	display: none
+
+.stars:not(:checked) > label
+	float: right
+	padding: 0
+	font-size: 26px
+	color: lightgrey
+	text-shadow: 1px 1px #bbb
+
+.stars:not(:checked) > label:before
+	content: '★'
+
+.stars > input:checked ~ label
+	color: gold
+	text-shadow: 1px 1px #c60
+
+// rating
+
+#map
+	background: linear-gradient(to bottom, $bg_quaternary 57%, $bg_primary 43%)
+	padding: 0 0 100 0
+	.maps
+		display: flex
+		flex-direction: row
+		.map_left
+			width: 40%
+			background-color: 	$bg_quaternary
+			.map_text
+				margin-left: 40px
+				.header
+					margin-top: 30px
+					font-size: 16px
+					font-weight: 400
+					color: #fff
+				.mail
+					margin-top: 20px
+					font-size: 16px
+					font-weight: 400
+					color: #fff
+					>p
+						>a
+							text-decoration: none
+							color: $accent
+				.btn_simple
+					margin: 20px 0
+					>img
+						margin-left: 10px
+		.map_right
+			width: 60%
+		#YMapsID
+			-webkit-filter: grayscale(100%)
+
+#consultation
+	background-image: url(../img/bg_consultation.png)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	.line
+		height: 1px
+		width: 100%
+		background-color: #fff
+		margin: 56px 0 10px 0
+	.notif
+		margin: 0 auto
+		>p
+			font-size: 12px
+			color: #fff
+			font-weight: 700
+	.descr
+		margin-left: 50%
+		>div
+			font-size: 23px
+			font-weight: 400
+			line-height: 1.3
+			margin-top: 65px
+			color: #fff
+		.btn_simple
+			margin-top: 40px
+			>img
+				margin-left: 10px
+
+#advertisement
+	background-color: $accent
+	padding: 0	
+	.container
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		>img
+			margin-top: 10px
+		.mobile_adv
+			margin-top: 31px
+			>p
+				font-size: 21px
+				font-weight: 400
+			>ul
+				list-style: none
+				margin-top: 20px
+				>li
+					padding-left: 20px
+					position: relative
+				>li:before
+					content: '✔'
+					position: absolute 
+					top: 0 
+					left: 0
+					color: $label_primary
+		.link_adv
+			display: flex
+			justify-content: center
+			align-items: center
+
+
+#footer
+	background-color: $bg_quaternary
+	padding: 60px 0 0
+	.row_flex
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		.col_footer_1
+			width: 17%
+		.col_footer_2
+			width: 53%
+		.col_footer_3
+			width: 16%
+	.mail_info
+		>a
+			display: block
+			margin-bottom: 25px
+			color: $accent
+		>.descr
+			font-size: 12px
+			color: $label_secondary
+			max-width: 184px
+			line-height: 1.65
+		.btn_simple
+			width: 220px
+		.btn_simple_yellow
+			margin-top: 20px
+			&:hover
+				background-color: #fff
+				color: $bg_quaternary
+				border: 1px solid #fff
+		.btn_simple_gray
+			margin-top: 5px
+			background-color: transparent
+			color: #fff
+			&:hover
+				background-color: #fff
+				border: 1px solid #fff
+				color: $bg_quaternary
+ 
+		>.social
+			list-style-type: none
+			margin: 0 auto
+			>li
+				display: inline-block
+				margin-right: 16px
+				>a
+					display: flex
+					align-items: center
+					justify-content: center
+					text-decoration: none
+					>img
+						transition: transform .4s ease
+					&:hover >img
+						transform: translateY(-8px)
+					>img
+						width: 16px
+						height: 16px
+				&:last-child
+					margin-right: 0

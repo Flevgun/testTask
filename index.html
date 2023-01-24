@@ -4,10 +4,7 @@
     <meta charset="utf-8" />
 
     <title>Автоцентр</title>
-    <meta
-      name="description"
-      content="htmllessons.ru - Лучшие уроки по созданию сайтов"
-    />
+    <meta name="description" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
@@ -46,156 +43,215 @@
     </style>
   </head>
   <body>
-    <section
-      id="top_banner"
-      style="background-image: url(img/main_banner/bg_main_banner.svg)"
-    >
-      <header id="header">
-        <div class="container">
-          <div class="inner_header">
-            <a href="/" class="logo"><img src="/img/header/logo.svg" alt="logo"/></a>
-            <div class="right_side_header">
-              <div class="hamburger" id="hamburger-1">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-              </div>
-              <ul class="mnu_top">
-                <li class="has_sub_menu">
-                  <a href="#">Услуги</a>
-                  <ul class="sub _menu">
-                    <!-- <li><a href="#">Ремонт автомоболия</a></li>
+    <header id="header">
+      <div class="container">
+        <div class="inner_header">
+          <a href="/" class="logo"
+            ><img src="/img/header/logo.svg" alt="logo"
+          /></a>
+          <div class="right_side_header">
+            <div class="hamburger" id="hamburger-1">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+            <ul class="mnu_top">
+              <li class="has_sub_menu">
+                <a href="#">Услуги</a>
+                <ul class="sub _menu">
+                  <!-- <li><a href="#">Ремонт автомоболия</a></li>
                     <li><a href="#">Плановое ТО</a></li>
                     <li><a href="#">Диагностика и ремонт</a></li>
                     <li><a href="#">Чип тюнинг</a></li> -->
-                  </ul>
-                </li>
-                <li><a href="#">О компании</a></li>
-                <li><a href="#">Гарантии</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Акции</a></li>
-                <li><a href="#">Контакты</a></li>
-              </ul>
-              <a href="#" class="btn_simple">Запись на сервис</a>
-            </div>
+                </ul>
+              </li>
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Гарантии</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+            <a href="#" class="btn_simple">Запись на сервис</a>
           </div>
         </div>
-      </header>
-      <div class="main_banner">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7 col-md-7 order-lg-1 order-2">
-              <div class="mb_info">
-                <div class="notif">
-                  <img src="#" alt="" />
-                  <p>Специализированный автосервис</p>
-                </div>
-                <h1>+7 (999) 123-45-67</h1>
-                <div class="descr">
-                  <p class="work">Работает для вас:</p>
-                  <p class="time">Ежедневно с 9:00 до 21:00</p>
-                  <p class="work">По адресу:</p>
-                  <p class="time">Екатеринбург, ул. Московский тракт 7 км, 2</p>
-                </div>
-                <div class="btns">
-                  <a href="#" class="btn_simple">Смотреть услуги<img src="img/arrow_down.png" alt=""></a>
-                </div>
+      </div>
+    </header>
+    <section id="main_banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-7 order-lg-1 order-2">
+            <div class="mb_info">
+              <div class="notif">
+                <p>Специализированный автосервис</p>
               </div>
+              <h1>+7 (999) 123-45-67</h1>
+              <div class="descr">
+                <p class="work">Работает для вас:</p>
+                <p class="time">Ежедневно с 9:00 до 21:00</p>
+                <p class="work">По адресу:</p>
+                <p class="time">Екатеринбург, ул. Московский тракт 7 км, 2</p>
+              </div>
+              <div class="btns">
+                <a href="#" class="btn_simple"
+                  >Смотреть услуги<img src="img/arrow_down.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-7 order-lg-1 order-2">
+            <div class="slider">
               <!-- slider -->
+              <div class="itc-slider" data-slider="itc-slider">
+                <div class="itc-slider__wrapper">
+                  <div class="itc-slider__items">
+                    <div class="itc-slider__item">
+                      <img src="/img/slider/slader_img1.png" alt="" />
+                    </div>
+                    <div class="itc-slider__item">
+                      <img src="/img/slider/slader_img2.png" alt="" />
+                    </div>
+                    <div class="itc-slider__item">
+                      <img src="/img/slider/slader_img3.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+                <button class="itc-slider__btn itc-slider__btn_prev"></button>
+                <button class="itc-slider__btn itc-slider__btn_next"></button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section id="advantages">
-			<div class="container">
+      <div class="container">
         <div class="line"></div>
-				<div class="notif">
-					<p>Главное приемущество компании</p>
-				</div>
-				<div class="row row_adv d-flex justify-content-center">
-					<div class="col-md-6 col-sm-6">
-						<div class="item_adv">
-							<div class="heading">Работаем <br> c 2012 года</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="item_adv">
-							<div class="descr">Вашим автомобилем будут заниматься люди c большим опытом, полученным за многие годы и прошедшие множество обучений.</div>
-							<div class="descr">Сотрудники обладают огромным багажом знаний, применяемых на практике.</div>
-					</div>
-				</div>
-			</div>
-		</section>
-    <section id="services">
-			<div class="container">
-				<div class="notif">
-					<p>Услуги автосервиса</p>
-				</div>
-				<div class="row row_adv d-flex justify-content-center">
+        <div class="notif">
+          <p>Главное приемущество компании</p>
+        </div>
+        <div class="row row_adv d-flex justify-content-center">
           <div class="col-md-6 col-sm-6">
-            <div class="item_adv row row_adv d-flex justify-content-center ">
-              <img src="img/services/repair_car.png" alt="repair_car">
-              <div class="col-md-6 col-sm-6">
+            <div class="item_adv">
+              <div class="heading">
+                Работаем <br />
+                c 2012 года
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="item_adv">
+              <div class="descr">
+                Вашим автомобилем будут заниматься люди c большим опытом,
+                полученным за многие годы и прошедшие множество обучений.
+              </div>
+              <div class="descr">
+                Сотрудники обладают огромным багажом знаний, применяемых на
+                практике.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="notif">
+          <p>Услуги автосервиса</p>
+        </div>
+        <div class="row row_adv d-flex justify-content-center">
+          <div class="col-md-6 col-sm-6">
+            <div class="item_adv row row_adv d-flex justify-content-center">
+              <img src="img/services/repair_car.png" alt="repair_car" />
+              <div class="items col-md-8 col-sm-6">
                 <div class="heading">Ремонт автомобиля</div>
                 <div class="descr">01</div>
               </div>
-              <div class="item_btn col-md-6 col-sm-6"><button class="btn_simple"></button></div>
-            </div>
-          </div>
-					<div class="col-md-6 col-sm-6">
-            <div class="item_adv row row_adv d-flex justify-content-center ">
-              <img src="img/services/plan_to.png" alt="">
-              <div class="col-md-6 col-sm-6">
-                <div class="items">
-                  <div class="heading">Плановое ТО</div>
-                  <div class="descr">02</div>
-                </div>
-              </div>
-              <div class="item_btn col-md-6 col-sm-6"><button class="btn_simple"></button></div>
-            </div>
-          </div>
-					<div class="col-md-6 col-sm-6">
-            <div class="item_adv row row_adv d-flex justify-content-center ">
-              <img src="img/services/check_car.png" alt="">
-              <div class="col-md-6 col-sm-6">
-                <div class="heading">Диагностика и ремонт</div>
-                <div class="descr">03</div>
-              </div>
-              <div class="item_btn col-md-6 col-sm-6">
+              <div class="item_btn col-md-4 col-sm-6">
                 <button class="btn_simple"></button>
               </div>
             </div>
           </div>
-					<div class="col-md-6 col-sm-6">
-            <div class="item_adv row row_adv d-flex justify-content-center ">
-              <img src="img/services/tuning.png" alt="">
-              <div class="col-md-6 col-sm-6">
-                <div class="heading">Тюнинг</div>
-                <div class="descr">04</div>
+          <div class="col-md-6 col-sm-6">
+            <div class="item_adv row row_adv d-flex justify-content-center">
+              <img src="img/services/plan_to.png" alt="repair_car" />
+              <div class="items col-md-8 col-sm-6">
+                <div class="heading">Плановое ТО</div>
+                <div class="descr">02</div>
               </div>
-              <div class="item_btn col-md-6 col-sm-6"><button class="btn_simple"></button></div>
+              <div class="item_btn col-md-4 col-sm-6">
+                <button class="btn_simple"></button>
+              </div>
             </div>
           </div>
-				</div>
-			</div>
-		</section>
+          <div class="col-md-6 col-sm-6">
+            <div class="item_adv row row_adv d-flex justify-content-center">
+              <img src="img/services/check_car.png" alt="repair_car" />
+              <div class="items col-md-8 col-sm-6">
+                <div class="heading">Диагностика и ремонт</div>
+                <div class="descr">03</div>
+              </div>
+              <div class="item_btn col-md-4 col-sm-6">
+                <button class="btn_simple"></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="item_adv row row_adv d-flex justify-content-center">
+              <img src="img/services/tuning.png" alt="repair_car" />
+              <div class="items col-md-8 col-sm-6">
+                <div class="heading">Чип тюнинг</div>
+                <div class="descr">04</div>
+              </div>
+              <div class="item_btn col-md-4 col-sm-6">
+                <button class="btn_simple"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="certificate">
       <div class="container">
         <div class="row row_adv d-flex justify-content-center">
           <div class="col-md-6 col-sm-6">
-            <div class="row row_adv d-flex justify-content-flex-start ">
-              <div class="heading">Обратившись к нам, в автоцентр, вы окажетесь в надёжных руках специалистов послегарантийного ремонта и технического обслуживания автомобилей.</div>
-              <div class="descr">Чтобы автомобиль всегда оставался в отличной форме, необходимо выполнять регулярное ТО по программе рекомендованной производителем.</div>
-              <div class="descr">Подразделение нашей компании СЕРТИФИЦИРОВАННО - это позволяет производить обслуживание вашего автомобиля С СОХРАНЕНИЕМ ГАРАНТИИ.</div>
+            <div class="row row_adv d-flex justify-content-flex-start">
+              <div class="heading">
+                Обратившись к нам, в автоцентр, вы окажетесь в надёжных руках
+                специалистов послегарантийного ремонта и технического
+                обслуживания автомобилей.
+              </div>
+              <div class="descr">
+                Чтобы автомобиль всегда оставался в отличной форме, необходимо
+                выполнять регулярное ТО по программе рекомендованной
+                производителем.
+              </div>
+              <div class="descr">
+                Подразделение нашей компании СЕРТИФИЦИРОВАННО - это позволяет
+                производить обслуживание вашего автомобиля С СОХРАНЕНИЕМ
+                ГАРАНТИИ.
+              </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="row row_adv d-flex justify-content-center">
-                <div class="img_cert"><img src="img/certificate/garantee.png" alt=""><p>Гарантия работы 1 год</p></div>
-                <div class="img_cert"><img src="img/certificate/worker.png" alt=""><p>Квалифицированные сотрудники</p></div>
-                <div class="img_cert"><img src="img/certificate/coffee.png" alt=""><p>Комфортные зоны ожидания</p></div>
-                <div class="img_cert"><img src="img/certificate/car.png" alt=""><p>Современное оборудование</p></div>
+              <div class="img_cert">
+                <img src="img/certificate/garantee.png" alt="" />
+                <p>Гарантия работы 1 год</p>
+              </div>
+              <div class="img_cert">
+                <img src="img/certificate/worker.png" alt="" />
+                <p>Квалифицированные сотрудники</p>
+              </div>
+              <div class="img_cert">
+                <img src="img/certificate/coffee.png" alt="" />
+                <p>Комфортные зоны ожидания</p>
+              </div>
+              <div class="img_cert">
+                <img src="img/certificate/car.png" alt="" />
+                <p>Современное оборудование</p>
+              </div>
             </div>
           </div>
         </div>
@@ -205,19 +261,384 @@
       <div class="container">
         <div class="notif">Обслуживаем и ремонтируем</div>
         <div class="logo">
-          <div class="circle one"><img src="img/logotype/volvo.png" alt=""></div>
-          <div class="circle two"><img src="img/logotype/landrover.png" alt=""></div>
-          <div class="circle three"><img src="img/logotype/mercedec.png" alt=""></div>
-          <div class="circle four"><img src="img/logotype/bmw.png" alt=""></div>
-          <div class="circle five"><img src="img/logotype/porsche.png" alt=""></div>
-          <div class="circle six"><img src="img/logotype/audi.png" alt=""></div>
-          <div class="circle seven"><img src="img/logotype/volkswagen.png" alt=""></div>
-          <div class="circle eight"><img src="img/logotype/skoda.png" alt=""></div>
+          <div class="circles">
+            <div class="circle">
+              <img src="img/logotype/volvo.png" alt="" />
+            </div>
+          </div>
+          <div class="circles">
+            <div class="circle">
+              <img src="img/logotype/landrover.png" alt="" />
+            </div>
+          </div>
+          <div class="circles">
+            <div class="circle">
+              <img src="img/logotype/mercedec.png" alt="" />
+            </div>
+          </div>
+          <div class="circles">
+            <div class="circle">
+              <img src="img/logotype/bmw.png" alt="" />
+            </div>
+          </div>
+          <div class="circles">
+            <div class="circle">
+              <img src="img/logotype/porsche.png" alt="" />
+            </div>
+          </div>
+          <div class="circles">
+            <div class="circle">
+              <img src="img/logotype/audi.png" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section id="sales">
-        
+      <div class="container">
+        <div class="notif"><p>Наши акции</p></div>
+        <div class="slider">
+          <div class="itc-slider" data-slider="itc-slider">
+            <div class="itc-slider__wrapper">
+              <div class="itc-slider__items">
+                <div class="itc-slider__item">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-md-8 col-sm-6">
+                      <img src="/img/sales/sales1.png" alt="" />
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                      <div class="header">
+                        Дарим 1000 бонусов за шиномонтаж и хранение
+                      </div>
+                      <div class="descr">11 апреля</div>
+                      <div class="link">
+                        <button class="btn_simple"></button>
+                        <div class="prev">Подробнее</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="itc-slider__item">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-md-8 col-sm-6">
+                      <img src="/img/sales/sales2.png" alt="" />
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                      <div class="header">
+                        Специальное предложение для владельцев VOLVO XC 90
+                      </div>
+                      <div class="descr">18 ноября</div>
+                      <div class="link">
+                        <button class="btn_simple"></button>
+                        <div class="prev">Подробнее</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+            <button class="itc-slider__btn itc-slider__btn_prev"></button>
+            <button class="itc-slider__btn itc-slider__btn_next"></button>
+          </div>
+        </div>
+      </div>
     </section>
+    <section id="reviews">
+      <div class="container">
+        <div class="notif">
+          <div class="row">
+            <div class="header col-md-6 col-sm-6">
+              Отзывы пользователей об Автоцентре
+            </div>
+            <div class="rate col-md-4 col-sm-6">4.6</div>
+            <div class="averange col-md-2 col-sm-6">cредняя оценка</div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="slider">
+          <!-- slider -->
+          <div class="itc-slider" data-slider="itc-slider">
+            <div class="itc-slider__wrapper">
+              <div class="itc-slider__items">
+                <div class="itc-slider__item">
+                  <div class="clients">
+                    <span class="client__img">
+                      <img src="/img/review/user.svg" alt="" />
+                    </span>
+                    <div class="client">
+                      <div class="header">butyl1n_i</div>
+                      <div class="descr">23 декабря 2020</div>
+                      <div class="stars">
+                        <input
+                          type="radio"
+                          id="star-5"
+                          name="rating"
+                          value="5"
+                          disabled
+                        />
+                        <label for="star-5" title="Оценка «5»"></label>
+                        <input
+                          type="radio"
+                          id="star-4"
+                          name="rating"
+                          value="4"
+                          checked
+                          disabled
+                        />
+                        <label for="star-4" title="Оценка «4»"></label>
+                        <input
+                          type="radio"
+                          id="star-3"
+                          name="rating"
+                          value="3"
+                          disabled
+                        />
+                        <label for="star-3" title="Оценка «3»"></label>
+                        <input
+                          type="radio"
+                          id="star-2"
+                          name="rating"
+                          value="2"
+                        />
+                        <label for="star-2" title="Оценка «2»"></label>
+                        <input
+                          type="radio"
+                          id="star-1"
+                          name="rating"
+                          value="1"
+                          disabled
+                        />
+                        <label for="star-1" title="Оценка «1»"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="review">
+                    Решил убить сразу несколько зайцев, и пока гуляли с женой по
+                    меге оставил свою Volvo на диагностику в данном центре. Знаю
+                    что меняли ранее в другом центре, и что уже нужно было
+                    поменять. В этом центре лишнего не насчитали, проблемы
+                    нашли. В следующий раз приеду уже за полным ТО.
+                  </div>
+                </div>
+                <div class="itc-slider__item">
+                  <div class="clients">
+                    <span class="client__img">
+                      <img src="/img/review/user.svg" alt="" />
+                    </span>
+                    <div class="client">
+                      <div class="header">butyl1n_i</div>
+                      <div class="descr">23 декабря 2020</div>
+                      <div class="stars">
+                        <input
+                          type="radio"
+                          id="v2_star-5"
+                          name="rating2"
+                          value="5"
+                          checked
+                          disabled
+                        />
+                        <label for="v2_star-5" title="Оценка «5»"></label>
+                        <input
+                          type="radio"
+                          id="v2_star-4"
+                          name="rating2"
+                          value="4"
+                          disabled
+                        />
+                        <label for="v2_star-4" title="Оценка «4»"></label>
+                        <input
+                          type="radio"
+                          id="v2_star-3"
+                          name="rating2"
+                          value="3"
+                          disabled
+                        />
+                        <label for="v2_star-3" title="Оценка «3»"></label>
+                        <input
+                          type="radio"
+                          id="v2_star-2"
+                          name="rating2"
+                          value="2"
+                          disabled
+                        />
+                        <label for="v2_star-2" title="Оценка «2»"></label>
+                        <input
+                          type="radio"
+                          id="v2_star-1"
+                          name="rating2"
+                          value="1"
+                          disabled
+                        />
+                        <label for="v2_star-1" title="Оценка «1»"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="review">
+                    Отличный сервис. Спасибо большое менеджеру Александру, помог
+                    и разъяснил (грамотно). Самое главное нашел причину и
+                    устранил . Не первый раз обращаюсь и пока всем доволен
+                    (обращался 01.06.2018г). Немного о самом сервисе. Клиентская
+                    зона на твердую 5 . Есть чай и кофе, и пока делают машину,
+                    можно занять себя просмотром телевизора. Сама зона
+                    просматривается сквозь стекла . Так что можно всегда
+                    посмотреть , на какой стадии ремонт! За это я ставлю 5+.
+                  </div>
+                </div>
+                <div class="itc-slider__item"></div>
+              </div>
+            </div>
+            <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+            <button class="itc-slider__btn itc-slider__btn_prev"></button>
+            <button class="itc-slider__btn itc-slider__btn_next"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="map">
+      <div class="container">
+        <div class="maps">
+          <div class="map_left">
+            <img src="/img/slider/slader_img1.png" alt="" />
+            <div class="map_text">
+              <div class="header">
+                <p>Екатеринбург, Московский тракт 7 км, 2</p>
+                <p>Телефон: +7 (999) 123-45-67</p>
+              </div>
+              <div class="mail">
+                <p>Cервис: <a href="">service@example.ru</a></p>
+                <p>Отдел запасных частей: <a href="">parts@example.ru</a></p>
+              </div>
+              <button class="btn_simple">
+                Построить маршрут<img
+                  src="/img/services/right_arrow.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div class="map_right" id="YMapsID"></div>
+        </div>
+      </div>
+    </section>
+    <section id="consultation">
+      <div class="container">
+        <div class="line"></div>
+        <div class="notif">
+          <p>Получить консультацию</p>
+        </div>
+        <div class="descr">
+          <div>
+            Оставьте заявку, и наш мастер перезвонит вам, произведет
+            предварительную оценку стоимости услуг и запчастей, и подберет
+            удобное время для визита.
+          </div>
+          <button class="btn_simple">
+            Оставить заявку<img src="/img/services/right_arrow.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="advertisement">
+      <div class="container">
+        <img src="/img/advertisement/phone.png" alt="" />
+        <div >
+          <div class="mobile_adv">
+            <p>Скачивайте наше мобильное приложение</p>
+            <ul>
+              <li>Записаться на ремонт</li>
+              <li>Посмотреть историю обслуживания</li>
+              <li>Получать постоянные акции и бонусы</li>
+            </ul>
+          </div>
+        </div>
+        <div class="link_adv">
+          <a href="#"><img src="/img/advertisement/app_store.svg" alt=""/></a>
+          <a href="#"><img src="/img/advertisement/google_play.svg" alt=""/></a>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="row_flex">
+					<div class="col_footer_1">
+						<div class="mail_info">
+							<a href="#">info@example.ru</a>
+							<div class="descr">
+                <p>Работаем для вас:</p>
+                <p>Ежедневно с 9:00 до 21:00</p>
+              </div>
+              <button class="btn_simple btn_simple_yellow">Обратный звонок</button>
+              <button class="btn_simple btn_simple_gray">Контроль качества</button>
+							<!-- <ul class="social">
+								<li><a href="#" target="_blank"><img src="img/footer/vk.svg" alt=""></a></li>
+								<li><a href="#" target="_blank"><img src="img/footer/instagram.svg " alt=""></a></li>
+								<li><a href="#" target="_blank"><img src="img/footer/twitter.svg" alt=""></a></li>
+								<li><a href="#" target="_blank"><img src="img/footer/youtube.svg " alt=""></a></li>
+							</ul> -->
+						</div>
+					</div>
+					<!-- <div class="col_footer_2">
+						<div class="mnu_footer_wrapper">
+							<div class="mnu_footer">
+								<b class="heading">Product</b>
+								<ul>
+									<li><a href="">Connections</a></li>
+									<li><a href="">Protocols</a></li>
+									<li><a href="">Personas</a></li>
+									<li><a href="">Integrations</a></li>
+									<li><a href="">Catalog</a></li>
+									<li><a href="">Pricing</a></li>
+									<li><a href="">Security</a></li>
+									<li><a href="">GDPR</a></li>
+								</ul>
+							</div>
+							<div class="mnu_footer">
+								<b class="heading">For Developers</b>
+								<ul>
+									<li><a href="">Docs</a></li>
+									<li><a href="">API</a></li>
+									<li><a href="">Open Source</a></li>
+									<li><a href="">Engineering Team</a></li>
+								</ul>
+							</div>
+							<div class="mnu_footer">
+								<b class="heading">Company</b>
+								<ul>
+									<li><a href="">Careers</a></li>
+									<li><a href="">Blog</a></li>
+									<li><a href="">Press</a></li>
+								</ul>
+							</div>
+							<div class="mnu_footer">
+								<b class="heading">Support</b>
+								<ul>
+									<li><a href="">Help Center</a></li>
+									<li><a href="">Contact Us</a></li>
+									<li><a href="">Personas</a></li>
+									<li><a href="">Security Bulletins</a></li>
+									<li><a href="">Documentation</a></li>
+									<li><a href="">Partner Portal</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col_footer_3">
+						<div class="newsletter">
+							<b class="heading">Newsletter</b>
+							<form action="">
+								<input type="email" placeholder="Email">
+								<button>
+									<img src="img/footer/send_icon.svg" alt="">
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">Rahul Rao</div> -->
+      </div>
+    </footer>
+
     <!-- libs -->
     <link
       rel="stylesheet"
@@ -230,6 +651,8 @@
     <script src="libs/jquery/dist/jquery.min.js"></script>
     <script src="libs/jquery.fancybox.min.js"></script>
     <script src="libs/wow.min.js"></script>
+    <script src="js/itc-slider.js" defer></script>
+    <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/adaptive.css" />
