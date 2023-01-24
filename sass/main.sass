@@ -641,13 +641,10 @@ h1,h2,h3,h4
 	.row_flex
 		display: flex
 		flex-wrap: wrap
-		justify-content: space-between
 		.col_footer_1
-			width: 17%
+			width: 37%
 		.col_footer_2
-			width: 53%
-		.col_footer_3
-			width: 16%
+			width: 63%
 	.mail_info
 		>a
 			display: block
@@ -695,3 +692,50 @@ h1,h2,h3,h4
 						height: 16px
 				&:last-child
 					margin-right: 0
+
+
+#footer
+	.mnu_footer
+		.heading
+			display: flex
+			.right_side_heading
+				padding: 5px 0 5px 60px
+			>ul
+				list-style-type: none
+				>li
+					display: inline-block
+					position: relative
+					a
+						display: inline-block
+						text-decoration: none
+						font-weight: 500
+						color: #000
+						transirion: color .4s ease
+						padding: 5px 30px 5px 0
+						&:hover
+							color: $accent
+	.right_side_footer
+		display: flex
+		justify-content: space-between
+		margin-top: 40px
+		.mnu_footer
+			width: 300px
+			.heading
+				color: $label_secondary
+			.line
+				height: 1px
+				width: 100%
+				background-color: $label_secondary
+				margin: 10px 0
+			>ul
+				list-style-type: none
+				>li
+					position: relative
+					a
+						text-decoration: none
+						font-weight: 500
+						color: $label_tertiary
+						transirion: color .4s ease
+						padding: 5px 30px 5px 0
+						&:hover
+							color: $accent
