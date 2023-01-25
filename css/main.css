@@ -73,41 +73,42 @@ img {
 section {
   padding: 100px 0;
   background-color: #b6b6b6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000361}}
-  section#top_banner {
-    padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000362}}
 #header {
-  background-color: #FFFFFF; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000366}}
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000368}}
   #header .inner_header {
     display: flex;
     align-items: center;
     justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000372}}
     #header .inner_header .logo {
       display: block;
       width: 164px;
       height: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000376}}
       #header .inner_header .logo > img {
         width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000378}}
     #header .inner_header .right_side_header {
       display: flex;
       align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000381}}
       #header .inner_header .right_side_header .btn_simple {
         padding: 10px 34px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000383}}
       #header .inner_header .right_side_header .mnu_top {
         list-style-type: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000385}}
         #header .inner_header .right_side_header .mnu_top > li {
           display: inline-block;
           position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000388}}
           #header .inner_header .right_side_header .mnu_top > li a {
             display: inline-block;
             text-decoration: none;
@@ -115,10 +116,10 @@ section {
             color: #000;
             transirion: color 0.4s ease;
             padding: 5px 40px 5px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000395}}
             #header .inner_header .right_side_header .mnu_top > li a:hover {
               color: #FEC110; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\0000397}}
           #header .inner_header .right_side_header .mnu_top > li > .sub_menu {
             position: absolute;
             top: 35px;
@@ -129,15 +130,15 @@ section {
             border-radius: 5px;
             animation: 0.6s opac;
             display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003107}}
             #header .inner_header .right_side_header .mnu_top > li > .sub_menu > li {
               display: block;
               padding: 3px 10px;
               font-size: 14pxf; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003112}}
           #header .inner_header .right_side_header .mnu_top > li.has_sub_menu:hover > .sub_menu {
             display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003114}}
           #header .inner_header .right_side_header .mnu_top > li.has_sub_menu::after {
             content: "";
             display: block;
@@ -156,17 +157,17 @@ section {
     opacity: 0; }
   to {
     opacity: 1; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003134}}
 h1, h2, h3, h4 {
   line-height: 1.3; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003138}}
 #top_banner {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003145}}
 .btn_simple {
   color: #2C2C2C;
   background-color: #FEC110;
@@ -176,11 +177,11 @@ h1, h2, h3, h4 {
   transition: all 0.4s ease;
   text-decoration: none;
   border-radius: 7px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003154}}
   .btn_simple:hover {
     color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003157}}
 .btn {
   color: #fff;
   background-color: #FEC110;
@@ -189,45 +190,45 @@ h1, h2, h3, h4 {
   text-decoration: none;
   border-radius: 24px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003165}}
   .btn:hover {
     background-color: #fff;
     color: #111; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003168}}
   .btn.btn_white {
     background-color: #fff;
     color: #111; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003171}}
     .btn.btn_white:hover {
       color: #fff;
       background-color: #FEC110; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003179}}
 .itc-slider {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003182}}
 .itc-slider__wrapper {
   overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003185}}
 .itc-slider__items {
   display: flex;
   transition: transform 0.5s ease;
   will-change: transform; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003190}}
 .itc-slider__transition-none {
   transition: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003193}}
 .itc-slider__item {
   flex: 0 0 100%;
   max-width: 100%;
   user-select: none; }
 
 /* кнопки влево и вправо */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003199}}
 .itc-slider__btn {
   position: absolute;
   top: 85%;
@@ -236,28 +237,29 @@ h1, h2, h3, h4 {
   align-items: center;
   background: rgba(0, 0, 0, 0);
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  border-radius: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003209}}
 .itc-slider__btn_hide {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003211}}
 .itc-slider__btn_prev {
   left: 5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003213}}
 .itc-slider__btn_next {
   left: 15%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003216}}
 .itc-slider__btn:hover,
 .itc-slider__btn:focus {
   color: #fff;
   text-decoration: none;
   outline: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003222}}
 .itc-slider__btn::before {
   border-radius: 50%;
   padding: 25px;
@@ -268,100 +270,106 @@ h1, h2, h3, h4 {
   cursor: pointer;
   background-color: #FEC110; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003232}}
 .itc-slider__btn_prev::before {
   background-image: url("../img/slider/arrow-left.svg"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003234}}
 .itc-slider__btn_next::before {
   background-image: url("../img/slider/arrow-right.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003239}}
 #main_banner {
   background-color: #313232;
   padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003241}}
-  #main_banner .mb_info > .notif p {
-    color: #FFFFFF;
-    font-size: 50px;
-    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003242}}
+  #main_banner .row {
+    padding-top: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003244}}
+  #main_banner .mb_info {
+    padding-bottom: 30px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003246}}
-  #main_banner .mb_info > h1 {
-    color: #FEC110;
-    font-size: 57px;
-    font-weight: 400;
-    margin-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003251}}
-  #main_banner .mb_info > .descr {
-    color: #8989a2;
-    margin: 10px 0 10px;
-    font-size: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003255}}
-    #main_banner .mb_info > .descr > .work {
-      color: #989898;
-      font-size: 16px;
-      font-weight: 400; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003259}}
-    #main_banner .mb_info > .descr > .time {
+    #main_banner .mb_info > .notif p {
       color: #FFFFFF;
-      font-size: 16px;
+      font-size: 50px;
+      font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003251}}
+    #main_banner .mb_info > h1 {
+      color: #FEC110;
+      font-size: 57px;
       font-weight: 400;
-      padding-bottom: 10px; }
+      margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003256}}
+    #main_banner .mb_info > .descr {
+      color: #8989a2;
+      margin: 10px 0 10px;
+      font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003260}}
+      #main_banner .mb_info > .descr > .work {
+        color: #989898;
+        font-size: 16px;
+        font-weight: 400; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003264}}
-  #main_banner .mb_info > .btns {
-    display: flex;
-    align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003267}}
-    #main_banner .mb_info > .btns .btn_simple {
-      margin-bottom: 7px; }
+      #main_banner .mb_info > .descr > .time {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 400;
+        padding-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003269}}
+    #main_banner .mb_info > .btns {
+      display: flex;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003272}}
+      #main_banner .mb_info > .btns .btn_simple {
+        margin-bottom: 7px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003276}}
 #advantages .line {
   height: 1px;
   width: 100%;
   background-color: #989898;
   margin: 56px 0 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003281}}
 #advantages .notif {
   margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003283}}
   #advantages .notif > p {
     font-size: 12px;
     font-weight: 700; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003286}}
   #advantages .notif img {
     width: 26px;
     height: auto;
     margin-right: 7px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003290}}
 #advantages .heading_main {
   max-width: 500px;
   margin: 32px auto 48px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003293}}
 #advantages h2 {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
   margin-bottom: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003298}}
 #advantages .description {
   text-align: center;
   font-size: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003302}}
 #advantages .row_adv .item_adv {
   background-color: #b6b6b6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003304}}
   #advantages .row_adv .item_adv > img {
     width: 40px;
     height: 40px;
     border-radius: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003308}}
   #advantages .row_adv .item_adv > .heading {
     color: #FEC110;
     font-size: 70px;
     font-weight: 400;
     margin: 24px 0 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003313}}
   #advantages .row_adv .item_adv > .descr {
     margin-top: 45px;
     color: #2C2C2C;
@@ -369,59 +377,63 @@ h1, h2, h3, h4 {
     font-size: 20px;
     max-width: 650px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003319}}
 .img-responsive {
   margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003324}}
 #services .notif > p {
   font-size: 64px;
   font-weight: 400;
   margin: 20px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003328}}
 #services .item_adv {
   padding-bottom: 20px;
   padding-right: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003331}}
   #services .item_adv > img {
     max-width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003333}}
   #services .item_adv .items {
     background-color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003335}}
   #services .item_adv .item_btn {
     background-color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003338}}
   #services .item_adv:hover .items {
-    background-color: #FEC110; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003335}}
+    background-color: #FEC110;
+    transition: all 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003341}}
     #services .item_adv:hover .items .descr {
-      color: #FFFFFF; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003337}}
+      color: #FFFFFF;
+      transition: all 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003344}}
   #services .item_adv:hover .item_btn {
-    background-color: #FEC110; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003339}}
+    background-color: #FEC110;
+    transition: all 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003347}}
     #services .item_adv:hover .item_btn .btn_simple {
       background-color: #2C2C2C;
       background-image: url("../img/services/white_arrow.svg");
       background-repeat: no-repeat;
-      background-position: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003345}}
+      background-position: center;
+      transition: all 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003354}}
 #services .heading {
   font-size: 20px;
   font-weight: 400;
   margin-top: 40px;
   margin-left: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003359}}
 #services .descr {
   margin-left: 40px;
   margin-bottom: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003362}}
 #services .item_btn {
   display: flex;
   justify-content: flex-end;
   align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003366}}
   #services .item_btn .btn_simple {
     border-radius: 50%;
     padding: 20px;
@@ -431,44 +443,44 @@ h1, h2, h3, h4 {
     background-repeat: no-repeat;
     background-position: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003375}}
 #certificate {
   padding-top: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003377}}
   #certificate .heading {
     font-size: 25px;
     font-weight: 400;
     color: #2C2C2C;
     line-height: 1.2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003382}}
   #certificate .descr {
     font-size: 16px;
     font-weight: 400;
     color: #2C2C2C;
     margin-top: 30px;
     max-width: 420px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003388}}
   #certificate .img_cert {
     padding: 0 40px 40px 0;
     max-width: 260px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003391}}
     #certificate .img_cert > p {
       font-size: 21px;
       font-weight: 400; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003395}}
 #logotype {
   background-color: #b6b6b6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003397}}
   #logotype .notif {
     color: #989898;
     font-size: 12px;
     font-weight: 700; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003402}}
   #logotype .logo {
     display: flex;
     margin-top: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003405}}
     #logotype .logo .circles {
       border: 1px solid #FFFFFF;
       box-sizing: border-box;
@@ -477,7 +489,7 @@ h1, h2, h3, h4 {
       margin-right: -10px;
       display: flex;
       justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003413}}
       #logotype .logo .circles .circle {
         height: 12em;
         width: 12em;
@@ -486,28 +498,28 @@ h1, h2, h3, h4 {
         justify-content: center;
         filter: grayscale(100%); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003414}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003423}}
 #sales .notif > p {
   font-size: 64px;
   font-weight: 400;
   margin: 20px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003418}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003427}}
 #sales .header {
   max-width: 420px;
   font-size: 45px;
   font-weight: 400;
   line-height: 1.2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003432}}
 #sales .descr {
   font-size: 16px;
   font-weight: 400;
   padding: 15px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003436}}
 #sales .link {
   display: flex;
   justify-content: flex-start;
   align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003440}}
   #sales .link .btn_simple {
     border-radius: 50%;
     padding: 20px;
@@ -515,51 +527,55 @@ h1, h2, h3, h4 {
     background-image: url("../img/services/right_arrow.svg");
     background-repeat: no-repeat;
     background-position: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003447}}
   #sales .link .prev {
     margin-left: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003441}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003450}}
+#sales .slider .itc-slider__btn {
+  border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003452}}
 #sales .slider .itc-slider__btn_prev {
   left: 69%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003454}}
 #sales .slider .itc-slider__btn_next {
   left: 74%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003446}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003457}}
 #sales .slider .itc-slider .itc-slider__btn::before {
   background-color: transparent;
   border: 1px solid; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003449}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003460}}
 #sales .slider .itc-slider .itc-slider__btn:hover {
-  background-color: #2C2C2C;
-  border-radius: 50%; }
+  background-color: #c3c1c1;
+  transition: all 0.4s ease;
+  filter: invert(1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003464}}
 #reviews {
   background-color: #313232; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003466}}
   #reviews .header {
     color: #fff;
     font-size: 45px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003469}}
   #reviews .rate {
     color: #FEC110;
     font-size: 45px;
     display: flex;
     justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003474}}
   #reviews .averange {
     color: #989898;
     margin-top: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003465}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003477}}
   #reviews .line {
     height: 1px;
     width: 100%;
     background-color: #989898;
     margin: 56px 0 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003470}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003482}}
   #reviews .clients {
     display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003484}}
     #reviews .clients .client__img {
       border: 1px solid #FFFFFF;
       box-sizing: border-box;
@@ -571,59 +587,60 @@ h1, h2, h3, h4 {
       height: 65px;
       margin-left: 40%;
       background-color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003495}}
       #reviews .clients .client__img > img {
         max-width: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003497}}
     #reviews .clients .client {
       display: flex;
       justify-content: flex-start;
       flex-direction: column;
       margin-left: 10px;
       line-height: 1.3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003503}}
       #reviews .clients .client .header {
         font-size: 20px;
         font-weight: 400;
         color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003495}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003507}}
       #reviews .clients .client .descr {
         font-size: 14px;
         color: #fff;
         font-weight: 400; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003499}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003511}}
   #reviews .review {
     margin-left: 40%;
     color: #fff;
     margin-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003504}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003516}}
   #reviews .slider .itc-slider__btn {
-    top: 2%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003506}}
+    top: 2%;
+    border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003519}}
   #reviews .slider .itc-slider__btn_prev {
     left: 87%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003508}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003521}}
   #reviews .slider .itc-slider__btn_next {
     left: 92%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003511}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003524}}
   #reviews .slider .itc-slider .itc-slider__btn::before {
     background-color: transparent;
     border: 1px solid; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003514}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003527}}
   #reviews .slider .itc-slider .itc-slider__btn:hover {
     background-color: #fff;
-    border-radius: 50%; }
+    transition: all 0.4s ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003533}}
 .stars {
   overflow: hidden;
   margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003537}}
 .stars:not(:checked) > input {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003540}}
 .stars:not(:checked) > label {
   float: right;
   padding: 0;
@@ -631,266 +648,346 @@ h1, h2, h3, h4 {
   color: lightgrey;
   text-shadow: 1px 1px #bbb; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003547}}
 .stars:not(:checked) > label:before {
   content: "★"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003537}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003550}}
 .stars > input:checked ~ label {
   color: gold;
   text-shadow: 1px 1px #c60; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003556}}
 #map {
   background: linear-gradient(to bottom, #313232 57%, #FFFFFF 43%);
   padding: 0 0 100 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003546}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003559}}
   #map .maps {
     display: flex;
     flex-direction: row; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003549}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003562}}
     #map .maps .map_left {
       width: 40%;
       background-color: #313232; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003565}}
       #map .maps .map_left .map_text {
         margin-left: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003554}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003567}}
         #map .maps .map_left .map_text .header {
           margin-top: 30px;
           font-size: 16px;
           font-weight: 400;
           color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003559}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003572}}
         #map .maps .map_left .map_text .mail {
           margin-top: 20px;
           font-size: 16px;
           font-weight: 400;
           color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003578}}
           #map .maps .map_left .map_text .mail > p > a {
             text-decoration: none;
             color: #FEC110; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003581}}
         #map .maps .map_left .map_text .btn_simple {
           margin: 20px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003570}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003583}}
           #map .maps .map_left .map_text .btn_simple > img {
             margin-left: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003572}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003585}}
     #map .maps .map_right {
       width: 60%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003574}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003587}}
     #map .maps #YMapsID {
       -webkit-filter: grayscale(100%); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003590}}
 #consultation {
   background-image: url(../img/bg_consultation.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003595}}
   #consultation .line {
     height: 1px;
     width: 100%;
     background-color: #fff;
     margin: 56px 0 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003587}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003600}}
   #consultation .notif {
     margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003589}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003602}}
     #consultation .notif > p {
       font-size: 12px;
       color: #fff;
       font-weight: 700; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003593}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003606}}
   #consultation .descr {
     margin-left: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003595}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003608}}
     #consultation .descr > div {
       font-size: 23px;
       font-weight: 400;
       line-height: 1.3;
       margin-top: 65px;
       color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003601}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003614}}
     #consultation .descr .btn_simple {
       margin-top: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003603}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003616}}
       #consultation .descr .btn_simple > img {
         margin-left: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003606}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003619}}
 #advertisement {
   background-color: #FEC110;
   padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003622}}
   #advertisement .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003613}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003626}}
     #advertisement .container > img {
       margin-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003615}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003628}}
     #advertisement .container .mobile_adv {
       margin-top: 31px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003630}}
       #advertisement .container .mobile_adv > p {
         font-size: 21px;
         font-weight: 400; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003620}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003633}}
       #advertisement .container .mobile_adv > ul {
         list-style: none;
         margin-top: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003623}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003636}}
         #advertisement .container .mobile_adv > ul > li {
           padding-left: 20px;
           position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003626}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003639}}
         #advertisement .container .mobile_adv > ul > li:before {
           content: "✔";
           position: absolute;
           top: 0;
           left: 0;
           color: #2C2C2C; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003632}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003645}}
     #advertisement .container .link_adv {
       display: flex;
       justify-content: center;
       align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003650}}
 #footer {
   background-color: #313232;
   padding: 60px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003641}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003653}}
   #footer .row_flex {
     display: flex;
     flex-wrap: wrap; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003644}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003656}}
     #footer .row_flex .col_footer_1 {
-      width: 37%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003646}}
+      width: 35%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003658}}
     #footer .row_flex .col_footer_2 {
       width: 63%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003649}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003661}}
   #footer .mail_info > a {
     display: block;
     margin-bottom: 25px;
     color: #FEC110; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003653}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003665}}
   #footer .mail_info > .descr {
     font-size: 12px;
     color: #989898;
     max-width: 184px;
     line-height: 1.65; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003670}}
   #footer .mail_info .btn_simple {
     width: 220px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003660}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003672}}
   #footer .mail_info .btn_simple_yellow {
     margin-top: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003662}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003674}}
     #footer .mail_info .btn_simple_yellow:hover {
       background-color: #fff;
       color: #313232;
       border: 1px solid #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003666}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003678}}
   #footer .mail_info .btn_simple_gray {
     margin-top: 5px;
     background-color: transparent;
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003682}}
     #footer .mail_info .btn_simple_gray:hover {
       background-color: #fff;
       border: 1px solid #fff;
       color: #313232; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003675}}
-  #footer .mail_info > .social {
-    list-style-type: none;
-    margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003678}}
-    #footer .mail_info > .social > li {
-      display: inline-block;
-      margin-right: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003681}}
-      #footer .mail_info > .social > li > a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003686}}
-        #footer .mail_info > .social > li > a > img {
-          transition: transform 0.4s ease; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003688}}
-        #footer .mail_info > .social > li > a:hover > img {
-          transform: translateY(-8px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003690}}
-        #footer .mail_info > .social > li > a > img {
-          width: 16px;
-          height: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003693}}
-      #footer .mail_info > .social > li:last-child {
-        margin-right: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003699}}
-#footer .mnu_footer .heading {
-  display: flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003701}}
-  #footer .mnu_footer .heading .right_side_heading {
-    padding: 5px 0 5px 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003703}}
-  #footer .mnu_footer .heading > ul {
-    list-style-type: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003705}}
-    #footer .mnu_footer .heading > ul > li {
-      display: inline-block;
-      position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003708}}
-      #footer .mnu_footer .heading > ul > li a {
-        display: inline-block;
-        text-decoration: none;
-        font-weight: 500;
-        color: #000;
-        transirion: color 0.4s ease;
-        padding: 5px 30px 5px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003715}}
-        #footer .mnu_footer .heading > ul > li a:hover {
-          color: #FEC110; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003717}}
-#footer .right_side_footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003721}}
-  #footer .right_side_footer .mnu_footer {
-    width: 300px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003723}}
-    #footer .right_side_footer .mnu_footer .heading {
-      color: #989898; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003725}}
-    #footer .right_side_footer .mnu_footer .line {
-      height: 1px;
-      width: 100%;
-      background-color: #989898;
-      margin: 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003730}}
-    #footer .right_side_footer .mnu_footer > ul {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003687}}
+  #footer .mnu_footer .heading {
+    display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003689}}
+    #footer .mnu_footer .heading .right_side_heading {
+      padding: 5px 0 5px 60px;
+      color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003692}}
+    #footer .mnu_footer .heading > ul {
       list-style-type: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003732}}
-      #footer .right_side_footer .mnu_footer > ul > li {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003694}}
+      #footer .mnu_footer .heading > ul > li {
+        display: inline-block;
         position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003734}}
-        #footer .right_side_footer .mnu_footer > ul > li a {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003697}}
+        #footer .mnu_footer .heading > ul > li a {
+          display: inline-block;
           text-decoration: none;
           font-weight: 500;
           color: #FFFFFF;
           transirion: color 0.4s ease;
           padding: 5px 30px 5px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003740}}
-          #footer .right_side_footer .mnu_footer > ul > li a:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003704}}
+          #footer .mnu_footer .heading > ul > li a:hover {
             color: #FEC110; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003706}}
+  #footer .right_side_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003710}}
+    #footer .right_side_footer .mnu_footer {
+      width: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003712}}
+      #footer .right_side_footer .mnu_footer .heading {
+        color: #989898; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003714}}
+      #footer .right_side_footer .mnu_footer .line {
+        height: 1px;
+        width: 100%;
+        background-color: #989898;
+        margin: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003719}}
+      #footer .right_side_footer .mnu_footer > ul {
+        list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003721}}
+        #footer .right_side_footer .mnu_footer > ul > li {
+          position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003723}}
+          #footer .right_side_footer .mnu_footer > ul > li > a {
+            text-decoration: none;
+            font-weight: 500;
+            color: #FFFFFF;
+            transirion: color 0.4s ease;
+            padding: 5px 30px 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003729}}
+            #footer .right_side_footer .mnu_footer > ul > li > a span {
+              position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003731}}
+              #footer .right_side_footer .mnu_footer > ul > li > a span:after {
+                display: block;
+                position: absolute;
+                left: 0;
+                width: 0;
+                top: 100%;
+                height: 2px;
+                background-color: #ffb341;
+                content: "";
+                transition: width 0.3s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003741}}
+              #footer .right_side_footer .mnu_footer > ul > li > a span:hover::after {
+                width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003743}}
+  #footer .contact_wrapper {
+    display: flex;
+    margin-top: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003746}}
+    #footer .contact_wrapper .col_post_footer_1 {
+      width: 35%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003748}}
+      #footer .contact_wrapper .col_post_footer_1 .social {
+        list-style-type: none;
+        margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003751}}
+        #footer .contact_wrapper .col_post_footer_1 .social > li {
+          display: inline-block;
+          margin-right: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003754}}
+          #footer .contact_wrapper .col_post_footer_1 .social > li > a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            height: 60px;
+            width: 60px;
+            border: 1px solid #fff;
+            border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003763}}
+            #footer .contact_wrapper .col_post_footer_1 .social > li > a:hover {
+              background-color: #fff;
+              transition: all 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003766}}
+            #footer .contact_wrapper .col_post_footer_1 .social > li > a > img {
+              filter: invert(1);
+              width: 24px;
+              height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003770}}
+            #footer .contact_wrapper .col_post_footer_1 .social > li > a:hover > img {
+              filter: grayscale(0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003772}}
+          #footer .contact_wrapper .col_post_footer_1 .social > li:last-child {
+            margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003774}}
+    #footer .contact_wrapper .rigth_side_post_footer {
+      display: flex;
+      justify-content: space-between;
+      width: 65%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003779}}
+      #footer .contact_wrapper .rigth_side_post_footer .col_post_footer_2 .header {
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003783}}
+      #footer .contact_wrapper .rigth_side_post_footer .col_post_footer_2 .descr {
+        font-size: 14px;
+        font-weight: 400;
+        color: #989898; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003787}}
+      #footer .contact_wrapper .rigth_side_post_footer .col_post_footer_2 .phone {
+        font-size: 14px;
+        font-weight: 400;
+        color: #989898; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003792}}
+      #footer .contact_wrapper .rigth_side_post_footer .col_post_footer_3 .header {
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003796}}
+      #footer .contact_wrapper .rigth_side_post_footer .col_post_footer_3 .descr {
+        font-size: 14px;
+        font-weight: 400;
+        color: #989898; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003800}}
+      #footer .contact_wrapper .rigth_side_post_footer .col_post_footer_3 .phone {
+        font-size: 14px;
+        font-weight: 400;
+        color: #989898; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003804}}
+  #footer .line {
+    height: 1px;
+    width: 100%;
+    background-color: #989898;
+    margin: 40px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003809}}
+  #footer .copyright {
+    display: flex;
+    justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003812}}
+    #footer .copyright > div {
+      font-size: 14px;
+      font-weight: 400;
+      color: #989898; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flevg\/Desktop\/Media\%20army\/testTask\/sass\/main\.sass}line{font-family:\00003816}}
+      #footer .copyright > div > span {
+        color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */

@@ -58,11 +58,13 @@ img
 section
 	padding: 100px 0
 	background-color: $separator_primary
-	&#top_banner
-		padding: 0
 
 #header
 	background-color: $bg_primary
+	position: fixed
+	top: 0
+	z-index: 100
+	width: 100%
 	.inner_header
 		display: flex
 		align-items: center
@@ -203,6 +205,7 @@ h1,h2,h3,h4
 	background: rgba(0, 0, 0, 0)
 	border: none
 	cursor: pointer
+	border-radius: 50%
 .itc-slider__btn_hide
 	display: none
 .itc-slider__btn_prev
@@ -228,7 +231,6 @@ h1,h2,h3,h4
 
 .itc-slider__btn_prev::before
 	background-image: url('../img/slider/arrow-left.svg')
-
 .itc-slider__btn_next::before
 	background-image: url('../img/slider/arrow-right.png')
 
@@ -237,7 +239,10 @@ h1,h2,h3,h4
 #main_banner
 	background-color: $bg_quaternary
 	padding: 0
+	.row
+		padding-top: 60px
 	.mb_info
+		padding-bottom: 30px
 		>.notif p
 			color: $label_tertiary
 			font-size: 50px
@@ -332,15 +337,19 @@ h1,h2,h3,h4
 		&:hover
 			.items
 				background-color: $accent
+				transition: all .4s ease
 				.descr
 					color: $bg_primary
+					transition: all .4s ease
 			.item_btn
 				background-color: $accent
+				transition: all .4s ease
 				.btn_simple
 					background-color: $label_primary
 					background-image: url('../img/services/white_arrow.svg')
 					background-repeat: no-repeat
 					background-position: center
+					transition: all .4s ease
 
 	.heading
 		font-size: 20px
@@ -438,6 +447,8 @@ h1,h2,h3,h4
 		.prev
 			margin-left: 10px
 	.slider
+		.itc-slider__btn
+			border-radius: 50%
 		.itc-slider__btn_prev
 			left: 69%
 		.itc-slider__btn_next
@@ -447,8 +458,9 @@ h1,h2,h3,h4
 				background-color: transparent
 				border: 1px solid
 			.itc-slider__btn:hover
-				background-color: $label_primary
-				border-radius: 50%
+				background-color: #c3c1c1
+				transition: all .4s ease
+				filter: invert(1)
 #reviews
 	background-color: $bg_quaternary
 	.header
@@ -503,6 +515,7 @@ h1,h2,h3,h4
 	.slider
 		.itc-slider__btn
 			top: 2%
+			border-radius: 50%
 		.itc-slider__btn_prev
 			left: 87%
 		.itc-slider__btn_next
@@ -513,7 +526,7 @@ h1,h2,h3,h4
 				border: 1px solid
 			.itc-slider__btn:hover
 				background-color: #fff
-				border-radius: 50%
+				transition: all .4s ease
 
 // rating
 
@@ -605,7 +618,7 @@ h1,h2,h3,h4
 
 #advertisement
 	background-color: $accent
-	padding: 0	
+	padding: 0
 	.container
 		display: flex
 		flex-direction: row
@@ -625,15 +638,14 @@ h1,h2,h3,h4
 					position: relative
 				>li:before
 					content: '✔'
-					position: absolute 
-					top: 0 
+					position: absolute
+					top: 0
 					left: 0
 					color: $label_primary
 		.link_adv
 			display: flex
 			justify-content: center
 			align-items: center
-
 
 #footer
 	background-color: $bg_quaternary
@@ -642,7 +654,7 @@ h1,h2,h3,h4
 		display: flex
 		flex-wrap: wrap
 		.col_footer_1
-			width: 37%
+			width: 35%
 		.col_footer_2
 			width: 63%
 	.mail_info
@@ -671,35 +683,12 @@ h1,h2,h3,h4
 				background-color: #fff
 				border: 1px solid #fff
 				color: $bg_quaternary
- 
-		>.social
-			list-style-type: none
-			margin: 0 auto
-			>li
-				display: inline-block
-				margin-right: 16px
-				>a
-					display: flex
-					align-items: center
-					justify-content: center
-					text-decoration: none
-					>img
-						transition: transform .4s ease
-					&:hover >img
-						transform: translateY(-8px)
-					>img
-						width: 16px
-						height: 16px
-				&:last-child
-					margin-right: 0
-
-
-#footer
 	.mnu_footer
 		.heading
 			display: flex
 			.right_side_heading
 				padding: 5px 0 5px 60px
+				color: $label_tertiary
 			>ul
 				list-style-type: none
 				>li
@@ -709,7 +698,7 @@ h1,h2,h3,h4
 						display: inline-block
 						text-decoration: none
 						font-weight: 500
-						color: #000
+						color: $label_tertiary
 						transirion: color .4s ease
 						padding: 5px 30px 5px 0
 						&:hover
@@ -731,11 +720,98 @@ h1,h2,h3,h4
 				list-style-type: none
 				>li
 					position: relative
-					a
+					>a
 						text-decoration: none
 						font-weight: 500
 						color: $label_tertiary
 						transirion: color .4s ease
 						padding: 5px 30px 5px 0
+						span
+							position: relative
+							&:after
+								display: block
+								position: absolute
+								left: 0
+								width: 0
+								top: 100%
+								height: 2px
+								background-color: rgb(255, 179, 65)
+								content: ""
+								transition: width 0.3s ease-out
+							&:hover::after
+								width: 100%
+	.contact_wrapper
+		display: flex
+		margin-top: 60px
+		.col_post_footer_1
+			width: 35%
+			.social
+				list-style-type: none
+				margin: 0 auto
+				>li
+					display: inline-block
+					margin-right: 4px
+					>a
+						display: flex
+						align-items: center
+						justify-content: center
+						text-decoration: none
+						height: 60px
+						width: 60px
+						border: 1px solid #fff
+						border-radius: 50%
 						&:hover
-							color: $accent
+							background-color: #fff
+							transition: all .4s ease
+						>img
+							filter: invert(1)
+							width: 24px
+							height: 24px
+						&:hover >img
+							filter: grayscale(0)
+					&:last-child
+						margin-right: 0
+		.rigth_side_post_footer
+			display: flex
+			justify-content: space-between
+			width: 65%
+			.col_post_footer_2
+				.header
+					color: $label_tertiary
+					font-size: 12px
+					font-weight: 700
+				.descr
+					font-size: 14px
+					font-weight: 400
+					color: $label_secondary
+				.phone
+					font-size: 14px
+					font-weight: 400
+					color: $label_secondary
+			.col_post_footer_3
+				.header
+					color: $label_tertiary
+					font-size: 12px
+					font-weight: 700
+				.descr
+					font-size: 14px
+					font-weight: 400
+					color: $label_secondary
+				.phone
+					font-size: 14px
+					font-weight: 400
+					color: $label_secondary
+	.line
+		height: 1px
+		width: 100%
+		background-color: $label_secondary
+		margin: 40px 0
+	.copyright
+		display: flex
+		justify-content: space-between
+		>div
+			font-size: 14px
+			font-weight: 400
+			color: $label_secondary
+			>span
+				color: $label_tertiary
