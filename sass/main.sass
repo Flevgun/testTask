@@ -94,23 +94,26 @@ section
 						padding: 5px 40px 5px 0
 						&:hover
 							color: $accent
-					>.sub_menu
-						position: absolute
-						top: 35px
-						background-color: #fff
-						box-shadow: 0 3px 6px rgba(0, 0, 0, .15)
-						z-index: 10
-						padding: 5px 0
-						border-radius: 5px
-						animation: .6s opac
-						display: none
-						>li
-							display: block
-							padding: 3px 10px
-							font-size: 14pxf
+					.sub_menu
+						>ul
+							position: absolute
+							top: 48px
+							background-color: #fff
+							box-shadow: 0 3px 6px rgba(0, 0, 0, .15)
+							z-index: 10
+							padding: 5px 0
+							animation: .6s opac
+							display: none
+							border-top: 1px solid $accent
+							>li
+								display: block
+								padding: 3px 10px
+								font-size: 14pxf
 					&.has_sub_menu
-						&:hover >.sub_menu
-							display: block
+						&:hover
+							.sub_menu 
+								>ul
+									display: block
 						&::after
 							content: ''
 							display: block
@@ -227,8 +230,6 @@ h1,h2,h3,h4
 	background-position: center
 	border: none
 	cursor: pointer
-	background-color: #FEC110
-
 .itc-slider__btn_prev::before
 	background-image: url('../img/slider/arrow-left.svg')
 .itc-slider__btn_next::before
@@ -273,6 +274,19 @@ h1,h2,h3,h4
 			align-items: center
 			.btn_simple
 				margin-bottom: 7px
+				&:hover
+					color: $label_primary
+					border: 1px solid #fff
+					background-color: #fff
+	.slider
+		.itc-slider
+			.itc-slider__btn
+				border: 1px solid
+				border-radius: 50%
+				background-color: $accent
+			.itc-slider__btn:hover
+				background-color: #fff
+				transition: all .4s ease
 
 #advantages
 	.line
@@ -446,6 +460,11 @@ h1,h2,h3,h4
 			background-image: url('../img/services/right_arrow.svg')
 			background-repeat: no-repeat
 			background-position: center
+		&:hover
+			.btn_simple		
+				background-color: $bg_quaternary
+				border: 1px $bg_quaternary
+
 		.prev
 			margin-left: 10px
 	.slider
@@ -617,6 +636,10 @@ h1,h2,h3,h4
 			margin-top: 40px
 			>img
 				margin-left: 10px
+			&:hover
+				color: $label_primary
+				border: 1px solid #fff
+				background-color: #fff
 
 #advertisement
 	background-color: $accent

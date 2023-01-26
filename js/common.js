@@ -32,3 +32,12 @@ ymaps.ready(function () {
     myMap.geoObjects.add(myPlacemark);
     
 });
+
+
+// button scroll
+
+$('.scroll_down').click(() => {
+    $('html, body').animate({
+        scrollTop: $('#services').offset().top
+    }, 500);
+});
